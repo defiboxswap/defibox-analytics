@@ -48,11 +48,9 @@ export default function Title() {
       <Flex alignItems="center" style={{ justifyContent: 'space-between' }}>
         <RowFixed>
           <UniIcon id="link" onClick={() => history.push('/')}>
-            <img width={'24px'} src={Logo} alt="logo" />
+            <img width={'24px'} src={"https://defibox.s3.ap-northeast-1.amazonaws.com/eos/token.defi-box.png"} alt="logo" />
           </UniIcon>
-          {!below1080 && (
-            <img width={'84px'} style={{ marginLeft: '8px', marginTop: '0px' }} src={Wordmark} alt="logo" />
-          )}
+          <span style={{ fontWeight: "bold", fontSize: "medium", paddingLeft: "10px", color: "white" }}>Defibox</span>
         </RowFixed>
         {below1080 && (
           <RowFixed style={{ alignItems: 'flex-end' }}>
