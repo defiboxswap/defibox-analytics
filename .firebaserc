@@ -1,0 +1,15 @@
+{
+  "projects": {},
+  "targets": {
+    "defibox-analytics": {
+      "hosting": {
+        "dev": [
+          "defibox-analytics-dev"
+        ],
+        "prod": [
+          "defibox-analytics"
+        ]
+      }
+    }
+  }
+}
